@@ -495,7 +495,7 @@ local function SkinArmoryFrame()
     local titleText = ArmoryFrameTitleText or ArmoryFrame.TitleText
     titleText:ClearAllPoints()
     ArmoryLevelText:ClearAllPoints()
-    titleText:Point("TOP", ArmoryFrame, "TOP", -6, -4)
+    titleText:Point("TOP", ArmoryFrame, "TOP", -6, -15)
     ArmoryLevelText:Point("TOP", titleText, "BOTTOM", 0, -6)
 
     -- Bottom tabs
